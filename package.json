@@ -33,6 +33,7 @@
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
+    "@types/d3-array": "^3.2.1",
     "drizzle-kit": "^0.22.8",
     "pg": "^8.11.5",
     "postcss": "^8",
