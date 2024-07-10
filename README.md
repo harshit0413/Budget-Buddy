@@ -1,36 +1,87 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Budget-Buddy App
+
+Welcome to the Budget-Buddy App, a full-stack application built with Next.js, React, Tailwind CSS, and Dirzzle ORM. This app helps you track your expenses and manage your budget efficiently.
+
+## Features
+
+- **User Authentication**: Secure login and registration system.
+- **Budget Management**: Create, update, and delete budgets.
+- **Expense Tracking**: Add, view, and manage your expenses.
+- **Dashboard**: Visualize your budgets and expenses with charts and summaries.
+- **Responsive Design**: Optimized for both desktop and mobile devices.
+- **Deployment**: Easily deployable on Vercel.
+
+## Technologies Used
+
+- **Frontend**: React, Next.js
+- **Styling**: Tailwind CSS
+- **Backend**: Next.js API Routes
+- **Database**: PostgreSQL
+- **ORM**: Dirzzle ORM
+- **Hosting**: Vercel
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
+- Node.js (v14 or higher)
+- npm or yarn
+- PostgreSQL
+
+### Installation
+
+1. **Clone the repository:**
+
+\`\`\`bash
+git clone https://github.com/your-username/budget-buddy.git
+cd budget-buddy
+\`\`\`
+
+2. **Install dependencies:**
+
+\`\`\`bash
+npm install
+# or
+yarn install
+\`\`\`
+
+3. **Set up the database:**
+
+- Create a PostgreSQL database.
+- Configure your .env file with the database connection string and other environment variables.
+
+4. **Run the development server:**
+
+\`\`\`bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+\`\`\`
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Deployment
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+To deploy the app on Vercel:
 
-## Learn More
+1. **Push your code to GitHub:**
 
-To learn more about Next.js, take a look at the following resources:
+\`\`\`bash
+git add .
+git commit -m "Initial commit"
+git push origin main
+\`\`\`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. **Deploy with Vercel:**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Sign up or log in to [Vercel](https://vercel.com).
+- Import your repository.
+- Follow the instructions to deploy.
 
-## Deploy on Vercel
+## Demo
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Check out the live demo: [Budget-Buddy Demo]()
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## References
+
+- **Dirzzle ORM**: [Dirzzle ORM Documentation](https://orm.drizzle.team)
