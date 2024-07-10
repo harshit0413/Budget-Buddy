@@ -1,6 +1,3 @@
-# Creating the README.md file with the provided content
-
-readme_content = """
 # Budget-Buddy App
 
 Welcome to the Budget-Buddy App, a full-stack application built with Next.js, React, Tailwind CSS, and Dirzzle ORM. This app helps you track your expenses and manage your budget efficiently.
