@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Expense Tracker App
+Welcome to the Expense Tracker App, a full-stack application built with Next.js, React, Tailwind CSS, and Dirzzle ORM. This app helps you track your expenses and manage your budget efficiently.
 
-## Getting Started
-
-First, run the development server:
-
-```bash
+Features
+User Authentication: Secure login and registration system.
+Budget Management: Create, update, and delete budgets.
+Expense Tracking: Add, view, and manage your expenses.
+Dashboard: Visualize your budgets and expenses with charts and summaries.
+Responsive Design: Optimized for both desktop and mobile devices.
+Deployment: Easily deployable on Vercel.
+Technologies Used
+Frontend: React, Next.js
+Styling: Tailwind CSS
+Backend: Next.js API Routes
+Database: PostgreSQL
+ORM: Dirzzle ORM
+Hosting: Vercel
+Getting Started
+Prerequisites
+Node.js (v14 or higher)
+npm or yarn
+PostgreSQL
+Installation
+Clone the repository:
+bash
+Copy code
+git clone https://github.com/your-username/expense-tracker.git
+cd expense-tracker
+Install dependencies:
+bash
+Copy code
+npm install
+# or
+yarn install
+Set up the database:
+Create a PostgreSQL database.
+Configure your .env file with the database connection string and other environment variables.
+Run the development server:
+bash
+Copy code
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Open http://localhost:3000 with your browser to see the result.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Deployment
+To deploy the app on Vercel:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Push your code to GitHub:
+bash
+Copy code
+git add .
+git commit -m "Initial commit"
+git push origin main
+Deploy with Vercel:
+Sign up or log in to Vercel.
+Import your repository.
+Follow the instructions to deploy.
+Demo
+Check out the live demo: Expense Tracker Demo
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+References
+Tutorial Video: Build Full Stack React Project
+Dirzzle ORM: Dirzzle ORM Documentation
