@@ -11,8 +11,8 @@ function Header() {
     <div className='p-5 flex justify-between items-center border shadow-sm'>
         <Image src={'./logo.svg'}
         alt='logo'
-        width={160}
-        height={100}
+        width={200}
+        height={150}
         />
          <div className='flex gap-3 items-center'>
           <Link href={'/dashboard'}>
