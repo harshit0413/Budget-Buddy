@@ -80,7 +80,7 @@ git push origin main
 
 ## Demo
 
-Check out the live demo: [Budget-Buddy Demo]()
+Check out the live demo: [Budget-Buddy Demo](https://budget-buds.vercel.app)
 
 ## References
 
